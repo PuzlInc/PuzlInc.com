@@ -77,4 +77,4 @@ REASONABLY FORESEEABLE. THIS WAIVER AND INDEMNITY PROVISION APPLIES TO
 ALL VIOLATIONS DESCRIBED IN OR CONTEMPLATED BY THIS AGREEMENT.
 
 EOF;
-include("/home/trent/puzl/website/template.php");
+include("/puzl/website/template.php");
