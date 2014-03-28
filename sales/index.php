@@ -104,4 +104,4 @@ $content = <<<EOF
   </div>
 </div>
 EOF;
-include("/home/trent/puzl/website/template");
+include("/home/trent/puzl/website/template.php");
