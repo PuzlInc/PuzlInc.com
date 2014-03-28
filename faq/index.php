@@ -1,4 +1,4 @@
 <?php
 $title = "FAQ";
 $content = "";
-include("/puzl/website/template.php");
+include("/home/puzl/website/template.php");

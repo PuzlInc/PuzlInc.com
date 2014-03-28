@@ -41,4 +41,4 @@ $content = <<<EOF
         </div>
     </div>
 EOF;
-include("/puzl/website/template.php");
+include("/home/puzl/website/template.php");
