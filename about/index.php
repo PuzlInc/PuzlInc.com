@@ -36,7 +36,7 @@ $content = <<<EOF
         <div class="tab-pane fade" id="Developers">
           <p><b>Steven Smith</b>
           <br /><i>Developer Intern</i>
-          <br />Steven <strike>hates</strike> really doesn't mind long walks on the beach<b>, as long as they aren't <a href="http://xkcd.com/120/">too long</a></b>.</p>
+          <br />Steven <strike>hates</strike> really doesn't mind long walks on the beach<i>, as long as they aren't <a href="http://xkcd.com/120/">too long</a></i>.</p>
         </div>
         <div class="tab-pane fade" id="Designers">
           <p><b>Chase Oseos</b>
