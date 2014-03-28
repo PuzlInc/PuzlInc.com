@@ -1,6 +1,7 @@
 <?php
 $title = "Terms";
 $content = <<<EOF
+<div class="container"><pre>
 All refund requests are at the discretion of the Puzl Inc.. If
 you have a payment issue such as entering your username incorrectly or
 not receiving a rank, please contact billing@puzl.io. All sales are
@@ -75,6 +76,6 @@ US TO USE THE SERVICES. IN ALL CASES, Puzl Inc. AND ITS SUPPLIERS AND
 DISTRIBUTORS WILL NOT BE LIABLE FOR ANY LOSS OR DAMAGE THAT IS NOT
 REASONABLY FORESEEABLE. THIS WAIVER AND INDEMNITY PROVISION APPLIES TO
 ALL VIOLATIONS DESCRIBED IN OR CONTEMPLATED BY THIS AGREEMENT.
-
+</pre></div>
 EOF;
 include("/home/puzl/website/template.php");
