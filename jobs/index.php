@@ -19,9 +19,10 @@ $content = <<<EOF
             <ul class="nav nav-tabs" style="margin-bottom: 15px;">
               <li class="active">
               <li><a href="#DevTeam" data-toggle="tab">Java Developer</a></li>
-              <a href="#GraphicDesigner" data-toggle="tab">Graphic Designer</a></li>
+              <li><a href="#GraphicDesigner" data-toggle="tab">Graphic Designer</a></li>
               <li><a href="#AndroidDeveloper" data-toggle="tab">Android Developer</a></li>
             </ul>
+
             <div id="jobList" class="tab-content">
             <div class="tab-pane fade active in" id="DevTeam">
               <p>Join a team of skilled developers that tackle projects primarily relating to Minecraft.</p>
@@ -31,9 +32,11 @@ $content = <<<EOF
               <li>Self-motivated and able to get projects done without close supervision</li></ul>
               <p>Please include work examples with your resume.</p>
             </div>
+
               <div class="tab-pane fade" id="GraphicDesigner">
                 Internship designing graphics and interfaces for the corporation and its clients.
               </div>
+
               <div class="tab-pane fade" id="AndroidDeveloper">
                 Brainstorm and develop Android applications for the corporation and its clients.
               </div>
