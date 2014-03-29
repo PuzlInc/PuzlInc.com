@@ -23,14 +23,14 @@ $content = <<<EOF
             </ul>
 
             <div id="jobList" class="tab-content">
-            <div class="tab-pane fade active in" id="DevTeam">
-              <p>Join a team of skilled developers that tackle projects primarily relating to Minecraft.</p>
-              <p>Requirements:
-              <ul><li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
-              <li>Ability to work on a team</li>
-              <li>Self-motivated and able to get projects done without close supervision</li></ul>
-              <p>Please include work examples with your resume.</p>
-            </div>
+              <div class="tab-pane fade active in" id="DevTeam">
+                <p>Join a team of skilled developers that tackle projects primarily relating to Minecraft.</p>
+                <p>Requirements:
+                <ul><li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
+                <li>Ability to work on a team</li>
+                <li>Self-motivated and able to get projects done without close supervision</li></ul>
+                <p>Please include work examples with your resume.</p>
+              </div>
 
               <div class="tab-pane fade" id="GraphicDesigner">
                 Internship designing graphics and interfaces for the corporation and its clients.
@@ -42,6 +42,6 @@ $content = <<<EOF
             </div>
           </div>
         </div>
-    </div>
+      </div>
 EOF;
 include("/home/puzl/website/template.php");
