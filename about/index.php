@@ -12,36 +12,38 @@ $content = <<<EOF
         <div class="tab-pane fade active in" id="FrontOffice">
           <p><b>Trent Hensler</b>
           <br /><i>President</i>
-          <br />Trent likes coffee.</p>
-
-          <p><b>Matthew Baxter</b>
-          <br /><i>Vice President - Human Resources</i>
-          <br />Matt likes cats.</p>
+          <br />Trent owns and founded Puzl Inc. He develops for Puzls main account, Minetime LLC.</p>
+          <br />
 
           <p><b>Brandon Hensler</b>
-          <br /><i>Vice President - Distribution</i>
-          <br />Born in the frigid tundra known as Antarctica, Brandon defeated
-          the odds and became the first man to distribute things the <i>right</i> way.</p>
-
-          <p><b>Ryan Anderson</b>
-          <br /><i>Vice President - Sales and Marketing</i>
-          <br />Ryan took marketing his freshman year at the prestiguous Blaine Senior High School.
-          He excels in adding and subtracting prices with decimals. He struggles with long division.</p>
-
-          <p><b>Adam Fendley</b>
-          <br /><i>Vice President - Network Engineering</i>
-          <br />Adam has taken a plethora of business related IB classes. He likes to puck.</p>
+          <br /><i>Vice President - Operations</i>
+          <br />Brandon assists in the day to day activity of the company.</p>
 
         </div>
         <div class="tab-pane fade" id="Developers">
           <p><b>Steven Smith</b>
-          <br /><i>Developer Intern</i>
-          <br />Steven <strike>hates</strike> really doesn't mind long walks on the beach<i>, as long as they aren't <a href="http://xkcd.com/120/">too long</a></i>.</p>
+          <br /><i>Systems Administrator</i>
+          <br />Steven works on any backend server work that Puzl needs. He also assisted in seting up the website.</p
+          <br />
+
+          <p><b>eueln</b>
+          <br /><i>Java Developer</i>
+          <br />Eueln writes Bukkit Plugins.</p>
+          <br />
+
+          <p><b>DSH105</b>
+          <br /><i>Java Developer</i>
+          <br />DSH105 writes Bukkit Plugins.</p>
+          <br />
+
+          <p><b>Chase</b>
+          <br /><i>Java Developer</i>
+          <br />Chase writes Bukkit Plugins.</p>
+          <br />
+
         </div>
         <div class="tab-pane fade" id="Designers">
-          <p><b>Chase Oseos</b>
-          <br /><i>Graphic Designer Intern</i>
-          <br />Chase likes to lurk.</p>
+          <p><i>Now hiring!</i></p>
         </div>
       </div>
     </div>

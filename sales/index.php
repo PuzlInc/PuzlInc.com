@@ -67,7 +67,7 @@ $content = <<<EOF
               <li>Client emails us a spec sheet.</li>
               <li>
                 <ul>
-                  <li>Aforementioned sheets are stored in our secure, waterproof vault. Waterproof vault is filled with water, and does not leak. Documents are printed on water-soluble paper.</li>
+                  <li><i>Your ideas are kept confidential and are only known by the project manager until a deal is met.</i></li>
                 </ul>
               </li>
               <li>We read it and assess if we currently have the workforce to take it on. If we do, we contact the client.</li>
