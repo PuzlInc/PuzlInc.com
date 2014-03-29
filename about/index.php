@@ -10,7 +10,7 @@ $content = <<<EOF
       </ul>
       <div id="jobList" class="tab-content">
         <div class="tab-pane fade active in" id="FrontOffice">
-          <p><b>Trent Hensler</b> <a href="https://twitter.com/drtshock"><i class="fa fa-twitter"></i>
+          <p><b>Trent Hensler</b> <a href="https://twitter.com/drtshock"><i class="fa fa-twitter"></i></a>
           <br /><i>President</i>
           <br />Trent owns and founded Puzl Inc. He develops for Puzls main account, Minetime LLC.</p>
           <br />
