@@ -3,22 +3,21 @@ $title = "Jobs";
 $content = <<<EOF
 
       <div class="jumbotron" style="margin-top: -3px;">
-      <div class="container">
-        <div class="row">
-          <center>
-            <i class="fa fa-users" style="font-size: 80px;"></i>
-            <h2>Now Hiring</h2>
-            <p>To apply, send your resume to <a href="mailto:jobs@puzl.io">jobs@puzl.io</a></p>
-          </center>
+        <div class="container">
+          <div class="row">
+            <center>
+              <i class="fa fa-users" style="font-size: 80px;"></i>
+              <h2>Now Hiring</h2>
+              <p>To apply, send your resume to <a href="mailto:jobs@puzl.io">jobs@puzl.io</a></p>
+            </center>
+          </div>
         </div>
-      </div>
       </div>
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <ul class="nav nav-tabs" style="margin-bottom: 15px;">
-              <li class="active">
-              <li><a href="#DevTeam" data-toggle="tab">Java Developer</a></li>
+              <li class="active"><a href="#DevTeam" data-toggle="tab">Java Developer</a></li>
               <li><a href="#GraphicDesigner" data-toggle="tab">Graphic Designer</a></li>
               <li><a href="#AndroidDeveloper" data-toggle="tab">Android Developer</a></li>
             </ul>
