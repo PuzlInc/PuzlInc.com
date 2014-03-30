@@ -2,6 +2,12 @@
 $title = "About";
 $content = <<<EOF
     <div class="container" style="padding-top: 25px; padding-bottom: 10px;">
+    <p>Puzl Inc. is both a professional place to work and hire. We do everything we can to take the stress out of getting a custom plugin.
+    Too often do server owners unknowingly hire developers that misrepresent and oversell themselves leading to an unhappy client.
+    Developers also can be the brunt of the issue if a client decides to charge back, changes specs all the time, or has unreasonable expectations.</p>
+    <p>Puzl Inc. takes care of all of that! We only hire developers that we know are more than capable of doing projects that are assigned to them.
+    We also weed out illegitimate clients. Such as people that are known to charge back. This reassures both parties that they are getting a good deal
+    and allows them to worry about their work, not clients or employers.</p>
       <ul class="nav nav-tabs" style="margin-bottom: 15px;">
         <li class="active">
         <a href="#FrontOffice" data-toggle="tab">Front Office</a></li>

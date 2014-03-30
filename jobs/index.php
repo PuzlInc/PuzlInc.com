@@ -8,7 +8,7 @@ $content = <<<EOF
             <center>
               <i class="fa fa-users" style="font-size: 80px;"></i>
               <h2>Now Hiring</h2>
-              <p>To apply, send your resume to <a href="mailto:jobs@puzl.io">jobs@puzl.io</a></p>
+              <p>To apply, send your resume to <a href="mailto:jobs@puzlinc.com">jobs@puzlinc.com</a></p>
             </center>
           </div>
         </div>
@@ -30,6 +30,15 @@ $content = <<<EOF
                 <li>Ability to work on a team</li>
                 <li>Self-motivated and able to get projects done without close supervision</li></ul>
                 <p>Please include work examples with your resume.</p>
+                <p>Perks:
+                <ul>
+                <li>Don't worry about finding clients or their legitamacy.</li>
+                <li>If a client charges back, you still get paid.</li>
+                <li>If a client does not pay for their product, you will still be compensated.</li>
+                <li>Established procuderes. We take care of all non-development work for you.</li>
+                <li>Focus solely on developing top-of-the-line products while we worry about everything else.</li>
+                <li>A professional team of developers to help.</li>
+                </ul>
               </div>
 
               <div class="tab-pane fade" id="GraphicDesigner">

@@ -8,6 +8,7 @@ $content = <<<EOF
           <i class="fa fa-users" style="font-size: 80px;"></i>
           <h2>Utilize Our Team</h2>
           <p>We are here to work for you</p>
+          <p>sales@puzlinc.com</p>
         </center>
       </div>
   </div>
