@@ -23,7 +23,7 @@ $content = <<<EOF
         <div class="tab-pane fade" id="Developers">
           <p><b>Steven Smith</b> <a href="https://twitter.com/blha303"><i class="fa fa-twitter"></i>blha303</a>
           <br /><i>Systems Administrator</i>
-          <br />Steven works on any backend server work that Puzl needs. He also assisted in setting up the website.</p
+          <br />Steven works on any backend server work that Puzl needs. He also assisted in setting up the website.</p>
           <br />
 
           <p><b>eueln</b> <a href="https://twitter.com/eueln"><i class="fa fa-twitter"></i></a>
