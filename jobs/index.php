@@ -32,7 +32,7 @@ $content = <<<EOF
                 <p>Please include work examples with your resume.</p>
                 <p>Perks:
                 <ul>
-                <li>Don't worry about finding clients or their legitamacy.</li>
+                <li>Don't worry about finding clients or their legitimacy.</li>
                 <li>If a client charges back, you still get paid.</li>
                 <li>If a client does not pay for their product, you will still be compensated.</li>
                 <li>Established procuderes. We take care of all non-development work for you.</li>
