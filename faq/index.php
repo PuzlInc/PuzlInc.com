@@ -1,4 +1,6 @@
 <?php
 $title = "FAQ";
-$content = "";
+$content = <<<EOF
+
+EOF;
 include("/home/puzl/website/template.php");
