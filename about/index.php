@@ -41,6 +41,11 @@ $content = <<<EOF
           <br />Chase writes Bukkit Plugins.</p>
           <br />
 
+          <p><b>Travis Ralston</b> <a href="https://twitter.com/turt2live"><i class="fa fa-twitter"></i>turt2live</a>
+          <br /><i>Java Developer</i>
+          <br />Travis writes Bukkit Plugins.</p>
+          <br />
+
         </div>
         <div class="tab-pane fade" id="Designers">
           <p><i>Now hiring!</i></p>
