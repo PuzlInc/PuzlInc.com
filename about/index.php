@@ -52,9 +52,9 @@ $content = <<<EOF
           <br />Travis writes Bukkit Plugins.</p>
           <br />
 
-          <p><b>Nate Mortenson</b>>
+          <p><b>Nate Mortenson</b>
           <br /><i>Java Developer</i>
-          <br />Nate writes Bukkit Plugins.</p>
+          <br />Nateg writes Bukkit Plugins.</p>
           <br />
 
         </div>
