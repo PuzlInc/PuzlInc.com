@@ -52,9 +52,9 @@
     <div id="footer">
       <hr>
       <div class="container" style="height: 100%;">
-        <p style="display: inline-block; font-size: 12px; padding-top: 24px;">&copy;Puzl Inc. 2014. All Rights Reserved.</p>
+        <p style="display: inline-block; font-size: 12px; padding-top: 24px;">&copy;Puzl Inc. - Professionally Awesome - 2014. All Rights Reserved.</p>
         <p class="pull-right" style="display: inline-block; font-size: 14px; padding-top: 23px;">
-          <a href="http://puzl.io" style="margin-right: 15px;">Home</a>
+          <a href="http://puzlinc.com" style="margin-right: 15px;">Home</a>
           <a href="/about" style="margin-right: 15px;">About Us</a>
           <a href="/contact" style="margin-right: 15px;">Support</a>
           <a href="/jobs" style="margin-right: 15px;">Jobs</a>

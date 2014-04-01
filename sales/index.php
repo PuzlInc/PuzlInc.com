@@ -56,8 +56,8 @@ $content = <<<EOF
           <p>Email us with as much information as possible. If we want to take on your project then we will let you know! If not, we will
           email you back letting you know why. We always do our best to make things work but remember that we cannot do everything!</p>
           <p>Pricing varies for each project depending on details, features and timeline. Changings specs after the work on the project has started will be subject to fees.</p>
-          <p>If you are willing to allow us to put the project on BukkitDev, we will take 20% off of the original quoted price.
-          If not, we will donate that 20% to Bukkit.</p>
+          <p>If you are willing to allow us to put the project on BukkitDev, we will take 10% off of the original quoted price.
+          If not, we will donate 5% of the price to Bukkit.</p>
 
           <p>
             <b>The Process</b>
