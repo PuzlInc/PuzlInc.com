@@ -1,0 +1,171 @@
+body, html {
+    padding: 0; 
+    margin: 0;
+    background: #f5f5f5;
+    font-family: sans-serif;
+}
+
+#nav {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(208, 208, 208, 0.81);
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05) inset;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline;
+    text-align: center;
+    padding: 26px;
+    box-shadow: none;
+    transition: box-shadow .15s ease-in-out;
+   -moz-transition: box-shadow .15s ease-in-out;
+   -webkit-transition: box-shadow .15s ease-in-out;
+}
+
+.nav-links li:hover {
+    cursor: pointer;
+    box-shadow: 0 15px 0 rgba(109, 109, 109, 0.5) inset;
+    transition: box-shadow .2s ease-in-out;
+   -moz-transition: box-shadow .2s ease-in-out;
+   -webkit-transition: box-shadow .2s ease-in-out;
+}
+
+.nav-links li + li {
+    margin-left: -4px;
+}
+
+.nav-links i {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#welcome {
+    background: url('/img/stock.jpg') no-repeat center center;
+    background-size: cover;
+    border-bottom: 1px solid #d8d8d8;
+    box-sizing: border-box;
+    padding: 15% 0;
+}
+
+.title {
+    font-size: 156px;
+    text-align: center;
+    padding: 20px 0;
+    color: #d13a3a;
+    text-shadow: 1px 1px 0 #9f0000;
+}
+
+.title small {
+    font-size: 36px;
+    vertical-align: middle;
+    color: #e00000;
+}
+
+.title p {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+    box-shadow: 0 1px 0 white;
+    font-size: 26px;
+    color: #bc0000;
+    text-shadow: 1px 1px 0 #fff;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.content {
+    background: rgb(247, 247, 247);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 1px;
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.content.content-text {
+    padding: 10px;
+}
+
+.content img:hover {
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+   -moz-transition: opacity .2s ease-in-out;
+   -webkit-transition: opacity .2s ease-in-out;
+    cursor: pointer;
+}
+
+.content img {
+    border-radius: 4px;
+    opacity: .8;
+    transition: opacity .15s ease-in-out;
+   -moz-transition: opacity .15s ease-in-out;
+   -webkit-transition: opacity .15s ease-in-out;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.halfline {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 0 rgb(255, 255, 255);
+    margin-top: 96px;
+}
+
+.halfline + .halfline {
+    margin-top: 3px;
+}
+
+.title-container {
+    background: url(../img/bg.png);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 0 #fff;
+    padding-bottom: 200px;
+}
+
+.demo-container {
+    position: absolute;
+    width: 100%;
+    top: 320px;
+}
+
+@media screen and (max-width: 768px) {
+    .demo-container {
+        position: relative;
+        top: 0;
+    }
+    
+    .title-container {
+        padding-bottom: 0;
+    }
+}
