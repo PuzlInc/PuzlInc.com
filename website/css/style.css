@@ -75,11 +75,9 @@ body, html {
 .title p {
     margin: 0;
     padding: 0;
-    top: 165px;
-    left: 0;
-    position: absolute;
     width: 100%;
     text-align: center;
+    line-height: 43px;
 }
 
 .header {
@@ -147,13 +145,13 @@ body, html {
     background: url(../img/bg.png);
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     box-shadow: 0 1px 0 #fff;
-    padding-bottom: 200px;
+    padding-bottom: 185px;
 }
 
 .demo-container {
     position: absolute;
     width: 100%;
-    top: 320px;
+    top: 335px;
 }
 
 @media screen and (max-width: 768px) {
