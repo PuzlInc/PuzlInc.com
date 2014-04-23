@@ -12,7 +12,7 @@
     <title>Puzl - <?php echo $title; ?></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/css/bootstrap.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -33,7 +33,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img src="/logo.png" alt="Puzl"></a>
+          <a class="navbar-brand" href="/"><img src="/assets/img/logo.png" alt="Puzl"></a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -61,10 +61,11 @@
           <a href="/faq" style="margin-right: 15px;">FAQ</a>
           <a href="/sales" style="margin-right: 15px;">Sales</a>
         </p>
+        <br><a href="http://beastnode.com"><img src="/assets/img/beastnode.png" width=150 height=70></a>
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
   </body>
 
 </html>
