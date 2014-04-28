@@ -1,0 +1,87 @@
+.slider {
+    position: relative;
+    background: #e2e2e2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #c90000;
+}
+
+.slider img {
+    margin: 0 0 -4px 0;
+    padding: 0;
+}
+
+.slider .slider-text {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: white;
+    max-height: 100%;
+}
+
+.slider .slider-text.fade-out {
+    opacity: .5;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
+
+.slider .slider-arrow {
+    padding: 13px;
+    position: absolute;
+    background: black;
+    color: white;
+    opacity: .6;
+    top: 39%;
+    cursor: pointer;
+}
+
+.slider .slider-arrow.left-arrow {
+    left: 0;
+}
+
+.slider .slider-arrow.right-arrow {
+    right: 0;
+}
+
+.slider .slider-item {
+    display: none;
+}
+
+.slider-item.active {
+    display: block;
+}
+
+.slider-icon-group {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.slider-icon {
+    width: 11px;
+    height: 11px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    cursor: pointer;
+    float: left;
+}
+
+.slider-icon + .slider-icon {
+    margin-left: 10px
+}
+
+.slider-icon.active {
+    background: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

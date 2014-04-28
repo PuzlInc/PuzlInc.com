@@ -1,80 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/assets/img/favicon.png" />
-    <title>Puzl</title>
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <link rel="stylesheet" href="css/grid.css" type="text/css" />
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" type="text/css" />
-</head>
-<body>
-<div id="nav">
-    <div class="grid-container">
-        <ul class="nav-links">
-            <li><i class="fa fa-home"></i> Home</li>
-            <li><i class="fa fa-info-circle"></i> About</li>
-            <li><i class="fa fa-wrench"></i> Support</li>
-            <li><i class="fa fa-group"></i> Jobs</li>
-            <li><i class="fa fa-credit-card"></i> Sales</li>
-        </ul>
-    </div>
-</div>
-<div class="title-container">
-    <div class="grid-container">
-        <div class="grid-100 title">
-            <div class="grid-33 hide-on-mobile hide-on-tablet">
-                <div class="halfline"></div>
-                <div class="halfline"></div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/favicon.ico" />
+        <title>Home :: Puzl Inc.</title>
+        <!-- Styles -->
+        <link rel="stylesheet" href="css/slider.css" type="text/css" />
+        <link rel="stylesheet" href="css/styles.css" type="text/css" />
+        <link rel="stylesheet" href="css/grid.css" type="text/css" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" type="text/css" />
+        <!--    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.0/animate.min.css" type="text/css" />-->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js" type="text/javascript"></script>
+        <script src="js/slider.js" type="text/javascript"></script>
+        <script src="js/scripts.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <nav>
+            <div class="grid-container">
+                <div class="brand grid-20 pull-left"><a href="#">Puzl Inc.</a></div>
+                <i class="pull-right fa fa-bars fa-2x" id="nav-slider"></i>
+                <div class="grid-80">
+                    <ul class="nav-links pull-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Sales</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="grid-33">
-                puzl
-            </div>
-            <div class="grid-33 hide-on-mobile hide-on-tablet">
-                <div class="halfline"></div>
-                <div class="halfline"></div>
-            </div>
+        </nav>
+        <div class="grid-container">
             <div class="grid-100">
-                <p><small>simply awesome</small></p>
+                <div class="slider">
+                    <div class="slider-item active" data-id="1">
+                        <div class="slider-image">
+                            <img src="http://p-hold.com/people/1000/400/blur" width="100%" />
+                        </div>
+                        <div class="slider-text">
+                            <h3>People</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
+                        </div>
+                    </div>
+                    <div class="slider-item" data-id="2">
+                        <div class="slider-image">
+                            <img src="http://p-hold.com/earth/1000/400/blur" width="100%" />
+                        </div>
+                    </div>
+                    <div class="slider-item" data-id="3">
+                        <div class="slider-image">
+                            <img src="http://p-hold.com/technology/1000/400/blur" width="100%" />
+                        </div>
+                        <div class="slider-text">
+                            <h3>Technology</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
+                        </div>
+                    </div>
+                    <div class="slider-arrow left-arrow hide-on-mobile"><i class="fa fa-chevron-left"></i></div>
+                    <div class="slider-arrow right-arrow hide-on-mobile"><i class="fa fa-chevron-right"></i></div>
+                    <div class="slider-icon-group">
+                        <div class="slider-icon active" data-id="1"></div>
+                        <div class="slider-icon" data-id="2"></div>
+                        <div class="slider-icon" data-id="3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-25">
+                <div class="info-box">
+                    <h3>We're Hiring!</h3>
+                    <p><i class="fa fa-group fa-4x"></i></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
+                    <div class="more"><a href="#">Click here for more..</a></div>
+                </div>
+            </div>
+            <div class="grid-25">
+                <div class="info-box">
+                    <h3>Free Support</h3>
+                    <p><i class="fa fa-gear fa-4x"></i></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
+                    <div class="more"><a href="#">Click here for more..</a></div>
+                </div>
+            </div>
+            <div class="grid-25">
+                <div class="info-box">
+                    <h3>We'll Teach You!</h3>
+                    <p><i class="fa fa-book fa-4x"></i></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
+                    <div class="more"><a href="#">Click here for more..</a></div>
+                </div>
+            </div>
+            <div class="grid-25">
+                <div class="info-box">
+                    <h3>Trusted Developers</h3>
+                    <p><i class="fa fa-list fa-4x"></i></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
+                    <div class="more"><a href="#">Click here for more..</a></div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<div class="demo-container">
-    <div class="grid-container">
-        <div class="grid-100 grid-parent text-center">
-            <div class="grid-25">
-                <div class="content content-text">
-                    <i class="fa fa-group fa-5x"></i>
-                    <h2>We're Hiring!</h2>
-                    <p>You'll never have to worry about finding clients or their legitimacy again! Join a team of skilled developers that tackle projects primarily relating to Minecraft. If a client charges back, you still get paid. If a client does not pay for their product, you will still be compensated. We take care of all non-development work for you! Focus solely on developing top-of-the-line products while we worry about everything else.</p>
+        <footer>
+            <div class="grid-container grid-parent">
+                <div class="grid-100">
+                    <div class="grid-25">
+                        <h5>Pages</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Sales</a></li> 
+                        </ul>
+                    </div>
+                    <div class="grid-25">
+                        <h5>Lorem Ipsum</h5>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.
+                        </p>
+                    </div>
+                    <div class="grid-25">
+                        <h5>Contact Us</h5>
+                        <p>Email: <a href="mailto:contact@puzlinc.com">contact@puzlinc.com</a></p>
+                    </div>
+                    <div class="grid-25">
+                        <h5>Recent Tweets</h5>
+                        <p><a href="#">@puzlinc</a> - April 27, 2014</p>
+                        <p>Our new website design is amazing! Thanks, <a href="http://twitter.com/lDucks">@lDucks</a></p>
+                        <small class="pull-right"><a href="http://twitter.com">view on twitter</a></small>
+                    </div>
+                </div>
+                <div class="grid-100 grid-parent">
+                    <div class="grid-50">
+                        <p><small>&copy; 2014 Puzl Inc - Professionally Awesome. All Rights Reserved.</small></p>
+                    </div>
+<!--
+                    <div class="grid-50">
+                        <ul class="social-media pull-right">
+                            <li><a  title="" target="_blank" href="https://facebook.com/"><i class="fa fa-2x fa-facebook"></i></a></li>
+                            <li><a  target="_blank" href="https://twitter.com/"><i class="fa fa-2x fa-twitter"></i></a></li>
+                            <li><a  target="_blank" href="https://google.com"><i class="fa fa-2x fa-google-plus"></i></a></li>
+                        </ul>
+                    </div>
+-->
                 </div>
             </div>
-            <div class="grid-25">
-                <div class="content content-text">
-                    <i class="fa fa-group fa-5x"></i>
-                    <h2>We're Hiring!</h2>
-                    <p>You'll never have to worry about finding clients or their legitimacy again! Join a team of skilled developers that tackle projects primarily relating to Minecraft. If a client charges back, you still get paid. If a client does not pay for their product, you will still be compensated. We take care of all non-development work for you! Focus solely on developing top-of-the-line products while we worry about everything else.</p>
-                </div>
-            </div>
-            <div class="grid-25">
-                <div class="content content-text">
-                    <i class="fa fa-group fa-5x"></i>
-                    <h2>We're Hiring!</h2>
-                    <p>You'll never have to worry about finding clients or their legitimacy again! Join a team of skilled developers that tackle projects primarily relating to Minecraft. If a client charges back, you still get paid. If a client does not pay for their product, you will still be compensated. We take care of all non-development work for you! Focus solely on developing top-of-the-line products while we worry about everything else.</p>
-                </div>
-            </div>
-            <div class="grid-25">
-                <div class="content content-text">
-                    <i class="fa fa-group fa-5x"></i>
-                    <h2>We're Hiring!</h2>
-                    <p>You'll never have to worry about finding clients or their legitimacy again! Join a team of skilled developers that tackle projects primarily relating to Minecraft. If a client charges back, you still get paid. If a client does not pay for their product, you will still be compensated. We take care of all non-development work for you! Focus solely on developing top-of-the-line products while we worry about everything else.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-</body>
+        </footer>
+        <div class="go-top hide-on-tablet hide-on-mobile"><i class="fa fa-chevron-up"></i></div>
+    </body>
 </html>

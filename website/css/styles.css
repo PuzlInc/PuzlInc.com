@@ -1,0 +1,190 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #FAFAFA;
+    background: url(../img/bg.png);
+    font-family: "Arial";
+    color: #383838;
+}
+
+nav {
+    width: 100%;
+    padding: 30px 0;
+    background: white;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 0 0 15px rgba(21, 0, 0, 0.18);
+}
+
+.brand {
+    color: #c90000;
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Oswald', 'sans-serif';
+}
+
+.brand a:hover {
+    color: #c90000;
+}
+
+.nav-links {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bolder;
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    vertical-align: middle;
+}
+
+.nav-links li+li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    color: black;   
+}
+
+.nav-links li a:hover {
+    color: #c90000;
+    transition: color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out;
+}
+
+#nav-slider {
+    display: none;
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 0 3px;
+    border-radius: 4px;
+}
+
+#nav-slider:hover {
+    color: #c90000;
+    border-color: #c90000;
+    transition: color .15s ease-in-out, border-color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out, border-color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+    .brand {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        float: none !important;
+    }
+
+    .nav-links {
+        float: left !important;
+        margin: inherit 0;
+        padding: 0;
+    }
+
+    .nav-links li {
+        width: 100%;
+        text-align: left;
+        display: list-item;
+    }
+
+    .nav-links li+li {
+        margin: 10px 0 0 0;
+        padding: 0;
+    }
+
+    #nav-slider {
+        display: block;
+    }
+}
+
+.info-box {
+    text-align: center;
+    margin-top: 20px;
+    background: #e2e2e2;
+    padding: 1px 15px;
+    font-size: 14px;
+    border-bottom: 2px solid #c90000;
+}
+
+.info-box .more {
+    font-size: 12px;
+    text-align: right;
+    margin-bottom: 4px;
+}
+
+a, .nav-links li.active a {
+    color: #c90000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #a80000;
+    transition: color .15s ease-in-out;
+    -moz-transition: color .15s ease-in-out;
+    -webkit-transition: color .15s ease-in-out;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background: #383838;
+    margin-top: 50px;
+    font-family: "Verdana";
+    color: white;
+    border-top: 3px solid #c90000;
+}
+
+footer p, footer ul {
+    font-size: 12px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li+li {
+    margin-top: 3px;
+}
+
+footer ul.social-media li {
+    display: inline;
+}
+
+footer ul.social-media li+li {
+    margin-left: 5px;
+}
+
+footer small {
+    font-size: 9px;
+}
+
+.go-top {
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: 12px;
+    cursor: pointer;
+    opacity: .6;
+    border-radius: 4px 4px 0 0;
+}
+
+.go-top:hover {
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+}
