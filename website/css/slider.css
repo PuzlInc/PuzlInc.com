@@ -15,7 +15,7 @@
 .slider .slider-text {
     position: absolute;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: black;
     width: 100%;
     padding: 10px 20px;
     box-sizing: border-box;
@@ -24,10 +24,11 @@
     color: white;
     max-height: 100%;
     font-size: 1.2vw;
+    opacity: .8;
 }
 
 .slider .slider-text.fade-out {
-    opacity: .5;
+    opacity: .6;
     transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
     -webkit-transition: opacity .2s ease-in-out;
