@@ -36,26 +36,24 @@ $.fn.slider = function (options) {
     }
 
     this.move = function (dir) {
-        var length, curitem = $(".slider-item.active").data('id'), newitem;
+        var length = $(".slider-item").length, curitem = $(".slider-item.active").data('id'), newitem;
 
         switch (dir) {
             case 'next':
-                dir = 1;
-                length = $(".slider-item").length;
+                if (curitem === length) {
+                    newitem = 1;
+                } else {
+                    newitem = curitem + 1;
+                }
                 break;
             case 'prev':
-                dir = -1;
-                length = 1;
-                break;
-            default:
                 length = $(".slider-item").length;
-                dir = 1;
-        }
-
-        if (curitem === length) {
-            newitem = 1;
-        } else {
-            newitem = curitem + dir;
+                if (curitem === 1) {
+                    newitem = length;
+                } else {
+                    newitem = curitem + 1;
+                }
+                break;
         }
 
         obj.goTo(newitem);
