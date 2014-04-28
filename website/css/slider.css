@@ -91,4 +91,10 @@
     .slider .slider-arrow {
         display: none;
     }
+
+    .slider-icon {
+        width: 20px;
+        height: 20px;
+        font-size: 3vw;
+    }
 }
