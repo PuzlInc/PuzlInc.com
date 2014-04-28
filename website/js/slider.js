@@ -17,7 +17,7 @@ $.fn.slider = function (options) {
 
     options = $.extend(defaults, options);
 
-    this.goTo = function(newitem) {
+    this.goTo = function (newitem) {
         if (options.fade) {
             $(".slider-item.active").fadeOut(options.fadeInterval, function () {
                 $(".slider-item[data-id=" + newitem + "]").fadeIn(options.fadeInterval, function () {
@@ -35,7 +35,7 @@ $.fn.slider = function (options) {
         }
     }
 
-    this.move = function(dir) {
+    this.move = function (dir) {
         var length, curitem = $(".slider-item.active").data('id'), newitem;
 
         switch (dir) {
