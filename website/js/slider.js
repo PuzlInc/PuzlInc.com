@@ -13,7 +13,8 @@ $.fn.slider = function (options) {
             cycle: true,
             cycleDirection: 'next'
         },
-        obj = this;
+        obj = this,
+        sliderItem = $(".slider-item");
 
     options = $.extend(defaults, options);
 
@@ -33,10 +34,10 @@ $.fn.slider = function (options) {
             $(".slider-icon.active").removeClass('active');
             $(".slider-icon[data-id=" + newitem + "]").addClass('active');
         }
-    }
+    };
 
     this.move = function (dir) {
-        var length = $(".slider-item").length, curitem = $(".slider-item.active").data('id'), newitem;
+        var length = sliderItem.length, curitem = $(".slider-item.active").data('id'), newitem;
 
         switch (dir) {
             case 'next':
@@ -47,7 +48,7 @@ $.fn.slider = function (options) {
                 }
                 break;
             case 'prev':
-                length = $(".slider-item").length;
+                length = sliderItem.length;
                 if (curitem === 1) {
                     newitem = length;
                 } else {
@@ -57,6 +58,28 @@ $.fn.slider = function (options) {
         }
 
         obj.goTo(newitem);
+    };
+
+    this.cycle = function(){
+        slider = setInterval(function () {
+            obj.move(options.cycleDirection);
+        }, options.interval);
+
+        if (options.hoverPause) {
+            $(this).mouseover(function () {
+                clearInterval(slider);
+            });
+
+            $(this).mouseout(function () {
+                slider = setInterval(function () {
+                    obj.move(options.cycleDirection);
+                }, options.interval);
+            });
+        }
+    };
+
+    this.stopCycle = function() {
+        clearInterval(slider);
     }
 
     return this.each(function () {
@@ -82,21 +105,7 @@ $.fn.slider = function (options) {
         });
 
         if (options.cycle) {
-            slider = setInterval(function () {
-                obj.move(options.cycleDirection);
-            }, options.interval);
-
-            if (options.hoverPause) {
-                $(this).mouseover(function () {
-                    clearInterval(slider);
-                });
-
-                $(this).mouseout(function () {
-                    slider = setInterval(function () {
-                        obj.move(options.cycleDirection);
-                    }, options.interval);
-                });
-            }
+            obj.cycle();
         }
     });
 };
