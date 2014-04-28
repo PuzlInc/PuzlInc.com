@@ -12,11 +12,12 @@ $.fn.slider = function (options) {
             hoverFade: true,
             cycle: true,
             cycleDirection: 'next'
-        };
+        },
+        obj = this;
 
     options = $.extend(defaults, options);
 
-    function goTo(newitem) {
+    this.goTo = function(newitem) {
         if (options.fade) {
             $(".slider-item.active").fadeOut(options.fadeInterval, function () {
                 $(".slider-item[data-id=" + newitem + "]").fadeIn(options.fadeInterval, function () {
@@ -34,7 +35,7 @@ $.fn.slider = function (options) {
         }
     }
 
-    function move(dir) {
+    this.move = function(dir) {
         var length, curitem = $(".slider-item.active").data('id'), newitem;
 
         switch (dir) {
@@ -57,7 +58,7 @@ $.fn.slider = function (options) {
             newitem = curitem + dir;
         }
 
-        goTo(newitem);
+        obj.goTo(newitem);
     }
 
     return this.each(function () {
@@ -68,23 +69,23 @@ $.fn.slider = function (options) {
         }
 
         $(".right-arrow").click(function () {
-            move('next');
+            obj.move('next');
         });
 
         $(".left-arrow").click(function () {
-            move('prev');
+            obj.move('prev');
         });
 
         $(".slider-icon").click(function () {
             var id = $(this).data('id'), curitem = $(".slider-item.active").data('id');
             if (id !== curitem) {
-                goTo(id);
+                obj.goTo(id);
             }
         });
 
         if (options.cycle) {
             slider = setInterval(function () {
-                move(options.cycleDirection);
+                obj.move(options.cycleDirection);
             }, options.interval);
 
             if (options.hoverPause) {
@@ -94,7 +95,7 @@ $.fn.slider = function (options) {
 
                 $(this).mouseout(function () {
                     slider = setInterval(function () {
-                        move(options.cycleDirection);
+                        obj.move(options.cycleDirection);
                     }, options.interval);
                 });
             }
