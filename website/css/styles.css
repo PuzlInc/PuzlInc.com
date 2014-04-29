@@ -65,8 +65,11 @@ nav {
     display: none;
     cursor: pointer;
     border: 2px solid black;
-    padding: 0 3px;
+    padding: 0 4px;
     border-radius: 4px;
+    position: absolute;
+    top: 40px;
+    right: 5px;
 }
 
 #nav-slider:hover {
