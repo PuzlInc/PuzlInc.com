@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f893ab58-c133-40ca-a30a-64f698e15e64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PuzlInc.com.iws" />
@@ -79,8 +78,8 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85470086" vertical-offset="3191" max-vertical-offset="3910">
-              <caret line="223" column="22" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.2977208" vertical-offset="3191" max-vertical-offset="3910">
+              <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -522,7 +521,7 @@
       <workItem from="1398264865766" duration="29000" />
       <workItem from="1398705617600" duration="16000" />
       <workItem from="1398705944103" duration="757000" />
-      <workItem from="1398706730660" duration="11943000" />
+      <workItem from="1398706730660" duration="12079000" />
     </task>
     <task id="LOCAL-00001" summary="Add new website">
       <created>1398198307585</created>
@@ -592,11 +591,15 @@
       <created>1398779204166</created>
       <updated>1398779204166</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Ignore .idea">
+      <created>1398779290231</created>
+      <updated>1398779290231</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15021000" />
+    <option name="totallyTimeSpent" value="15157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
@@ -665,7 +668,8 @@
     <MESSAGE value="Change about styles" />
     <MESSAGE value="Improve slider functionality" />
     <MESSAGE value="Update styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update styles" />
+    <MESSAGE value="Ignore .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ignore .idea" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85470086" vertical-offset="3191" max-vertical-offset="3910">
-          <caret line="223" column="22" selection-start-line="223" selection-start-column="22" selection-end-line="223" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.2977208" vertical-offset="3191" max-vertical-offset="3910">
+          <caret line="200" column="0" selection-start-line="200" selection-start-column="0" selection-end-line="200" selection-end-column="0" />
           <folding />
         </state>
       </provider>
