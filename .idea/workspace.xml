@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f893ab58-c133-40ca-a30a-64f698e15e64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/about.html" afterPath="$PROJECT_DIR$/website/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/js/slider.js" afterPath="$PROJECT_DIR$/website/js/slider.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/styles.css" afterPath="$PROJECT_DIR$/website/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -75,6 +68,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.10059172" vertical-offset="1785" max-vertical-offset="2686">
+              <caret line="109" column="67" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="slider.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/css/slider.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,14 +88,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="slider.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33903134" vertical-offset="0" max-vertical-offset="1972">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
               <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website/about.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4615386" vertical-offset="1738" max-vertical-offset="2669">
+              <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="108" selection-end-column="67" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -130,10 +143,11 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/website/css/style.css" />
-        <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/website/css/slider.css" />
         <option value="$PROJECT_DIR$/website/js/scripts.js" />
         <option value="$PROJECT_DIR$/website/js/slider.js" />
+        <option value="$PROJECT_DIR$/website/about.html" />
+        <option value="$PROJECT_DIR$/website/index.html" />
       </list>
     </option>
   </component>
@@ -529,7 +543,7 @@
       <workItem from="1398264865766" duration="29000" />
       <workItem from="1398705617600" duration="16000" />
       <workItem from="1398705944103" duration="757000" />
-      <workItem from="1398706730660" duration="9381000" />
+      <workItem from="1398706730660" duration="9761000" />
     </task>
     <task id="LOCAL-00001" summary="Add new website">
       <created>1398198307585</created>
@@ -583,11 +597,15 @@
       <created>1398718120208</created>
       <updated>1398718120208</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add mock about page">
+      <created>1398733960847</created>
+      <updated>1398733960847</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12459000" />
+    <option name="totallyTimeSpent" value="12839000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="-8" width="1456" height="886" extended-state="6" />
@@ -652,7 +670,8 @@
     <MESSAGE value="Fix URLs" />
     <MESSAGE value="Fix overflow issue" />
     <MESSAGE value="Modify cycles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify cycles" />
+    <MESSAGE value="Add mock about page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mock about page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -734,14 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2686">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website/css/slider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
@@ -762,11 +773,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33903134" vertical-offset="0" max-vertical-offset="1972">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
           <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4615386" vertical-offset="1738" max-vertical-offset="2669">
+          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="108" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10059172" vertical-offset="1785" max-vertical-offset="2686">
+          <caret line="109" column="67" selection-start-line="109" selection-start-column="67" selection-end-line="109" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
