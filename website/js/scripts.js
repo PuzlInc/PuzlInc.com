@@ -3,7 +3,7 @@
 $(function () {
     "use strict";
     
-    $(".slider").slider({interval: 8000, fade: true});
+    $(".slider").slider({fade: true});
 
     $("#nav-slider").click(function () {
         $(".nav-links").slideToggle();
