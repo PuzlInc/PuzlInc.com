@@ -17,8 +17,10 @@ nav {
     padding: 30px 0;
     background: white;
     margin-bottom: 50px;
+/*
     border-bottom: 1px solid #e2e2e2;
     box-shadow: 0 0 15px rgba(21, 0, 0, 0.18);
+*/
 }
 
 .brand {
@@ -219,4 +221,5 @@ footer small {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    margin-top: -50px;
 }
