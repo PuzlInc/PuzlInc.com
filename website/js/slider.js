@@ -60,25 +60,23 @@ $.fn.slider = function (options) {
         obj.goTo(newitem);
     };
 
-    this.cycle = function(){
+    this.cycle = function () {
         slider = setInterval(function () {
             obj.move(options.cycleDirection);
         }, options.interval);
 
         if (options.hoverPause) {
-            $(this).mouseover(function () {
-                clearInterval(slider);
+            $(this).one('mouseover', function () {
+                obj.stopCycle();
             });
 
-            $(this).mouseout(function () {
-                slider = setInterval(function () {
-                    obj.move(options.cycleDirection);
-                }, options.interval);
+            $(this).one('mouseout', function () {
+                obj.cycle();
             });
         }
     };
 
-    this.stopCycle = function() {
+    this.stopCycle = function () {
         clearInterval(slider);
     };
 
