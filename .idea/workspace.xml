@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f893ab58-c133-40ca-a30a-64f698e15e64" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/img/staff/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/website/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/index.html" afterPath="$PROJECT_DIR$/website/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/js/slider.js" afterPath="$PROJECT_DIR$/website/js/slider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/website/css/styles.css" afterPath="$PROJECT_DIR$/website/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PuzlInc.com.iws" />
@@ -66,31 +75,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.961538" vertical-offset="506" max-vertical-offset="2686">
-              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="slider.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/css/slider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-              <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="slider.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="slider.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website/js/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1972">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.33903134" vertical-offset="0" max-vertical-offset="1972">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -98,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="scripts.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website/js/scripts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12108262" vertical-offset="0" max-vertical-offset="702">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -133,8 +132,8 @@
         <option value="$PROJECT_DIR$/website/css/style.css" />
         <option value="$PROJECT_DIR$/website/index.html" />
         <option value="$PROJECT_DIR$/website/css/slider.css" />
-        <option value="$PROJECT_DIR$/website/js/slider.js" />
         <option value="$PROJECT_DIR$/website/js/scripts.js" />
+        <option value="$PROJECT_DIR$/website/js/slider.js" />
       </list>
     </option>
   </component>
@@ -530,7 +529,7 @@
       <workItem from="1398264865766" duration="29000" />
       <workItem from="1398705617600" duration="16000" />
       <workItem from="1398705944103" duration="757000" />
-      <workItem from="1398706730660" duration="6795000" />
+      <workItem from="1398706730660" duration="9381000" />
     </task>
     <task id="LOCAL-00001" summary="Add new website">
       <created>1398198307585</created>
@@ -580,11 +579,15 @@
       <created>1398716447858</created>
       <updated>1398716447858</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modify cycles">
+      <created>1398718120208</created>
+      <updated>1398718120208</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9873000" />
+    <option name="totallyTimeSpent" value="12459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1448" y="-8" width="1456" height="886" extended-state="6" />
@@ -648,7 +651,8 @@
     <MESSAGE value="Host our own images" />
     <MESSAGE value="Fix URLs" />
     <MESSAGE value="Fix overflow issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix overflow issue" />
+    <MESSAGE value="Modify cycles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify cycles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -732,34 +736,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.961538" vertical-offset="506" max-vertical-offset="2686">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="2686">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website/css/slider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
-          <caret line="3" column="44" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="459" max-vertical-offset="1853">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/js/slider.js">
+    <entry file="file://$PROJECT_DIR$/website/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1972">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website/js/scripts.js">
+    <entry file="file://$PROJECT_DIR$/website/js/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12108262" vertical-offset="0" max-vertical-offset="702">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.33903134" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

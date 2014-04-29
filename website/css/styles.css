@@ -188,3 +188,39 @@ footer small {
     -moz-transition: opacity .2s ease-in-out;
     -webkit-transition: opacity .2s ease-in-out;
 }
+
+.about-object {
+    padding: 10px;
+    background: #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.26);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #c90000;
+}
+
+.about-object h4 {
+    margin: 10px 0;
+}
+
+.about-object p {
+    color: #797979;
+    margin: 0;
+    font-size: 14px;
+}
+
+.about-object p.social-media {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-text {
+    background: #252525;
+    padding: 10px 25px;;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

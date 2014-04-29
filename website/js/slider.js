@@ -80,7 +80,7 @@ $.fn.slider = function (options) {
 
     this.stopCycle = function() {
         clearInterval(slider);
-    }
+    };
 
     return this.each(function () {
         if (options.hoverFade) {
