@@ -30,8 +30,11 @@ nav {
     font-family: 'Oswald', 'sans-serif';
 }
 
-.brand a:hover {
-    color: #c90000;
+.brand img {
+    padding-top: 5px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
 .nav-links {
