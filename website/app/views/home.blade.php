@@ -1,11 +1,11 @@
-@extend('layouts.master')
+@extends('layouts.master')
 @section('content')
 <div class="grid-container">
 	<div class="grid-100">
 		<div class="slider">
 			<div class="slider-item active" data-id="1">
 				<div class="slider-image">
-					<img src="public/assets/img/slides/s1.png" width="100%" />
+					<img src="/assets/img/slides/s1.png" width="100%" />
 				</div>
 				<div class="slider-text">
 					<h3>People</h3>
@@ -14,12 +14,12 @@
 			</div>
 			<div class="slider-item" data-id="2">
 				<div class="slider-image">
-					<img src="public/assets/img/slides/s2.png" width="100%" />
+					<img src="/assets/img/slides/s2.png" width="100%" />
 				</div>
 			</div>
 			<div class="slider-item" data-id="3">
 				<div class="slider-image">
-					<img src="public/assets/img/slides/s3.png" width="100%" />
+					<img src="/assets/img/slides/s3.png" width="100%" />
 				</div>
 				<div class="slider-text">
 					<h3>Technology</h3>

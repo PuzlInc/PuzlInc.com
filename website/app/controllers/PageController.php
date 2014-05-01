@@ -3,11 +3,11 @@
 class PageController extends BaseController {
 
 	function showHome(){
-		return View::make('home', array('Title' => 'Home'));
+		return View::make('home', array('title' => 'Home'));
 	}
 
-	function getAbout(){
-		return View::make('about', array('Title' => 'About Us'));
+	function showAbout(){
+		return View::make('about', array('title' => 'About Us'));
 	}
 
 }

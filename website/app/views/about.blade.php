@@ -1,4 +1,4 @@
-@yield('layouts.master')
+@extends('layouts.master')
 @section('content')
 <div class="header-text">
 	<div class="grid-container">
@@ -13,7 +13,7 @@
 	</div>
 	<div class="grid-20">
 		<div class="info-box about-object text-center">
-			<img src="public/assets/img/staff/1.png" width="100%" />
+			<img src="/assets/img/staff/1.png" width="100%" />
 			<h4>Trent Hensler</h4>
 			<p>President</p>
 			<p class="social-media">
@@ -23,7 +23,7 @@
 	</div>
 	<div class="grid-20">
 		<div class="info-box about-object text-center">
-			<img src="public/assets/img/staff/2.png" width="100%" />
+			<img src="/assets/img/staff/2.png" width="100%" />
 			<h4>Brandon Hensler</h4>
 			<p>Vice President</p>
 			<p class="social-media">
@@ -38,7 +38,7 @@
 	</div>
 	<div class="grid-20">
 		<div class="info-box about-object text-center">
-			<img src="public/assets/img/staff/3.png" width="100%" />
+			<img src="/assets/img/staff/3.png" width="100%" />
 			<h4>Steven Smith</h4>
 			<p>Systems Administrator</p>
 			<p class="social-media">
@@ -48,7 +48,7 @@
 	</div>
 	<div class="grid-20">
 		<div class="info-box about-object text-center">
-			<img src="public/assets/img/staff/4.png" width="100%" />
+			<img src="/assets/img/staff/4.png" width="100%" />
 			<h4>Rhys Williams</h4>
 			<p>Systems Administrator</p>
 			<p class="social-media">
@@ -58,7 +58,7 @@
 	</div>
 	<div class="grid-20">
 		<div class="info-box about-object text-center">
-			<img src="public/assets/img/staff/5.png" width="100%" />
+			<img src="/assets/img/staff/5.png" width="100%" />
 			<h4>Travis Ralston</h4>
 			<p>Java Developer</p>
 			<p class="social-media">

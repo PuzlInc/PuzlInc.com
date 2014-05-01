@@ -11,5 +11,5 @@
 |
 */
 
-Route::get('/', 'PageController@getHome');
-Route::get('/about', 'PageController@getAbout');
+Route::get('/', 'PageController@showHome');
+Route::get('/about', 'PageController@showAbout');
