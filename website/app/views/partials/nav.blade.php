@@ -6,7 +6,7 @@
 	<div class="grid-80">
 		<ul class="nav-links pull-right">
 			@foreach($nav['primary'] as $navItem)
-			<li @if($navItem->isActive()) class="active" @endif><a href="{{ $navItem->getUrl }}">{{ $navItem->getTitle }}</a></li>
+			<li @if($navItem->isActive()) class="active" @endif><a href="{{ $navItem->getUrl() }}">{{ $navItem->getTitle() }}</a></li>
 			@endforeach
 		</ul>
 	</div>

@@ -1,4 +1,5 @@
 <?php
+
 namespace Tools\UI;
 
 class NavigationItem {

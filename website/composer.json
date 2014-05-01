@@ -14,11 +14,11 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php"
-		]
+		],
+        "psr-0": {
+            "Tools": "app/libraries"
+        }
 	},
-    "psr-0": {
-        "Tools": "app/libraries"
-    },
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
