@@ -223,9 +223,13 @@ footer small {
     background: #252525;
     padding: 10px 25px;;
     width: 100%;
-    color: white;
+    color: #CCC;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     margin-top: -50px;
+}
+
+.fa {
+    cursor: default;
 }

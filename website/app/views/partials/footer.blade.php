@@ -3,12 +3,9 @@
 		<div class="grid-25">
 			<h5>Pages</h5>
 			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="#">Support</a></li>
-				<li><a href="#">Jobs</a></li>
-				<li><a href="#">FAQ</a></li>
-				<li><a href="#">Sales</a></li>
+				@foreach($nav['primary'] as $navItem)
+				<li><a href="{{ $navItem->getUrl() }}">{{ $navItem->getTitle() }}</a></li>
+				@endforeach
 			</ul>
 		</div>
 		<div class="grid-25">

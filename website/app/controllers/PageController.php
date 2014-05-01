@@ -9,7 +9,13 @@ class PageController extends BaseController {
 
 	function showAbout(){
 		parent::setActive('About');
-		return View::make('about', array('title' => 'About Us'));
+
+		$vars = array(
+			'title' => 'About Us',
+			'staff' => Config::get('staff')
+		);
+
+		return View::make('about', $vars);
 	}
 
 }
