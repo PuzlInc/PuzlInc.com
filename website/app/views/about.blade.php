@@ -10,17 +10,17 @@
 <div class="grid-container">
 	@foreach($staff as $dept)
 	<div class="grid-100">
-		<h2>{{ $dept->name }}</h2>
+		<h2>{{ $dept['name'] }}</h2>
 	</div>
 	<div class="grid-100 grid-parent">
-		@foreach($dept->members as $member)
+		@foreach($dept['members'] as $member)
 		<div class="grid-20">
 			<div class="info-box about-object text-center">
-				<img src="{{ $member->avatar }}" width="100%" />
-				<h4>{{ $member->name }}</h4>
-				<p>{{ $member->role }}</p>
+				<img src="{{ $member['avatar'] }}" width="100%" />
+				<h4>{{ $member['name'] }}</h4>
+				<p>{{ $member['role'] }}</p>
 				<p class="social-media">
-					<a href="https://twitter.com/{{ $member->twitter }}"><i class="fa fa-twitter fa-lg"></i></a>
+					<a href="https://twitter.com/{{ $member['twitter'] }}"><i class="fa fa-twitter fa-lg"></i></a>
 				</p>
 			</div>
 		</div>

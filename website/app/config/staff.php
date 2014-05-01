@@ -2,7 +2,7 @@
 
 return array(
 	array(
-		'department' => 'Front Desk',
+		'name' => 'Front Desk',
 		'members' => array(
 			array(
 				'name' => 'Trent Hensler',
@@ -19,7 +19,7 @@ return array(
 		)
 	),
 	array(
-		'department' => 'Developers',
+		'name' => 'Developers',
 		'members' => array(
 			array(
 				'name' => 'Steven Smith',
@@ -43,7 +43,7 @@ return array(
 				'name' => 'Justin Rosenthal',
 				'role' => 'Web Developer',
 				'twitter' => 'lDucks',
-				'avatar' => '/assets/img/staff/Duck.png'
+				'avatar' => '/assets/img/staff/duck.png'
 			),
 		)
 	)
