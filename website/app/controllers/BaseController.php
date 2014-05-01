@@ -25,7 +25,7 @@ class BaseController extends Controller {
 			new NavigationItem("Home", "/"),
 			new NavigationItem("About", "/about"),
 			new NavigationItem("Support", "#"),
-			new NavigationItem("Jobs", "#"),
+			new NavigationItem("Jobs", "/jobs"),
 			new NavigationItem("FAQ", "#"),
 			new NavigationItem("Sales", "#")
 		);

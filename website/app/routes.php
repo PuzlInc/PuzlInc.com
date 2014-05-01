@@ -13,3 +13,4 @@
 
 Route::get('/', 'PageController@showHome');
 Route::get('/about', 'PageController@showAbout');
+Route::get('/jobs', 'PageController@showJobs');

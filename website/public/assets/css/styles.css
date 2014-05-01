@@ -219,6 +219,10 @@ footer small {
     text-align: center;
 }
 
+.text-left {
+    text-align: left;
+}
+
 .header-text {
     background: #252525;
     padding: 10px 25px;;

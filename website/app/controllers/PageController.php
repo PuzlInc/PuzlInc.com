@@ -18,4 +18,9 @@ class PageController extends BaseController {
 		return View::make('about', $vars);
 	}
 
+	function showJobs(){
+		parent::setActive('Jobs');
+		return View::make('jobs', array('title' => 'Jobs'));
+	}
+
 }
