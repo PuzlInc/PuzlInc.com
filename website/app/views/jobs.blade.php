@@ -13,13 +13,15 @@
 			<h2>Java Developer</h2>
 			<i class="fa fa-gears fa-4x"></i>
 			<div class="text-left">
-				<p>Requirements:
-				</p><ul><li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
+				<p>Requirements:</p>
+				<ul>
+					<li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
 					<li>Ability to work on a team</li>
-					<li>Self-motivated and able to get projects done without close supervision</li></ul>
+					<li>Self-motivated and able to get projects done without close supervision</li>
+				</ul>
 				<p>Please include work examples with your resume.</p>
-				<p>Perks:
-				</p><ul>
+				<p>Perks:</p>
+				<ul>
 					<li>Don't worry about finding clients or their legitimacy.</li>
 					<li>If a client charges back, you still get paid.</li>
 					<li>If a client does not pay for their product, you will still be compensated.</li>
@@ -35,13 +37,15 @@
 			<h2>Graphic Designer</h2>
 			<i class="fa fa-pencil-square-o fa-4x"></i>
 			<div class="text-left">
-				<p>Requirements:
-				</p><ul><li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
+				<p>Requirements:</p>
+				<ul>
+					<li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
 					<li>Ability to work on a team</li>
-					<li>Self-motivated and able to get projects done without close supervision</li></ul>
+					<li>Self-motivated and able to get projects done without close supervision</li>
+				</ul>
 				<p>Please include work examples with your resume.</p>
-				<p>Perks:
-				</p><ul>
+				<p>Perks:</p>
+				<ul>
 					<li>Don't worry about finding clients or their legitimacy.</li>
 					<li>If a client charges back, you still get paid.</li>
 					<li>If a client does not pay for their product, you will still be compensated.</li>
@@ -57,13 +61,15 @@
 			<h2>Android Developer</h2>
 			<i class="fa fa-mobile fa-4x"></i>
 			<div class="text-left">
-				<p>Requirements:
-				</p><ul><li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
+				<p>Requirements:</p>
+				<ul>
+					<li>In depth knowledge of the <a href="http://bukkit.org">Bukkit</a> API</li>
 					<li>Ability to work on a team</li>
-					<li>Self-motivated and able to get projects done without close supervision</li></ul>
+					<li>Self-motivated and able to get projects done without close supervision</li>
+				</ul>
 				<p>Please include work examples with your resume.</p>
-				<p>Perks:
-				</p><ul>
+				<p>Perks:</p>
+				<ul>
 					<li>Don't worry about finding clients or their legitimacy.</li>
 					<li>If a client charges back, you still get paid.</li>
 					<li>If a client does not pay for their product, you will still be compensated.</li>

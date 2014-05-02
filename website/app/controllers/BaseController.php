@@ -24,10 +24,10 @@ class BaseController extends Controller {
 		$navigation['primary'] = array(
 			new NavigationItem("Home", "/"),
 			new NavigationItem("About", "/about"),
-			new NavigationItem("Support", "#"),
 			new NavigationItem("Jobs", "/jobs"),
+			new NavigationItem("Sales", "#"),
 			new NavigationItem("FAQ", "#"),
-			new NavigationItem("Sales", "#")
+			new NavigationItem("Contact", "#")
 		);
 
 		foreach($navigation['primary'] as $navItem){

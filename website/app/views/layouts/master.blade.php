@@ -4,10 +4,13 @@
 	@include('partials.head')
 </head>
 <body>
-<nav>
-	@include('partials.nav')
-</nav>
-@yield('content')
+<div id="wrap">
+	<nav>
+		@include('partials.nav')
+	</nav>
+	@yield('content')
+	<div id="push"></div>
+</div>
 <footer>
 	@include('partials.footer')
 </footer>
