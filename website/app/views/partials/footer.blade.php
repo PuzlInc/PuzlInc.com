@@ -11,7 +11,7 @@
 		<div class="grid-25">
 			<h5>Our Sponsors</h5>
 			<p>
-				<a href="http://beastnode.com/"><img src="/assets/img/beastnode.png" /></a>
+				<a href="http://beastnode.com/"><img src="/assets/img/beastnode.png" width="80%" /></a>
 			</p>
 		</div>
 		<div class="grid-25">

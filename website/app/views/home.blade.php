@@ -46,7 +46,7 @@
 	<div class="grid-25">
 		<div class="info-box">
 			<h3>Free Support</h3>
-			<p><i class="fa fa-gear fa-4x"></i></p>
+			<p><i class="fa fa-question fa-4x"></i></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
 			<div class="more"><a href="#">Click here for more..</a></div>
 		</div>
