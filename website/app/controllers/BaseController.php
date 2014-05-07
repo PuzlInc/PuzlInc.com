@@ -27,7 +27,7 @@ class BaseController extends Controller {
 			new NavigationItem("Jobs", "/jobs"),
 			new NavigationItem("Sales", "#"),
 			new NavigationItem("FAQ", "#"),
-			new NavigationItem("Contact", "#")
+			new NavigationItem("Contact", "/contact")
 		);
 
 		foreach($navigation['primary'] as $navItem){

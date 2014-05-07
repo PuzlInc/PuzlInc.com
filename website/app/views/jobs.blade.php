@@ -58,7 +58,7 @@
 	</div>
 	<div class="grid-33">
 		<div class="info-box">
-			<h2>Android Developer</h2>
+			<h2>Mobile Developer</h2>
 			<i class="fa fa-mobile fa-4x"></i>
 			<div class="text-left">
 				<p>Requirements:</p>
