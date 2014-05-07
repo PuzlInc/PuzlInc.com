@@ -9,9 +9,9 @@
 			</ul>
 		</div>
 		<div class="grid-25">
-			<h5>Lorem Ipsum</h5>
+			<h5>Our Sponsors</h5>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.
+				<a href="http://beastnode.com/"><img src="/assets/img/beastnode.png" /></a>
 			</p>
 		</div>
 		<div class="grid-25">

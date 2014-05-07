@@ -1,6 +1,6 @@
 <?php
 
-class PageController extends BaseController {
+class ContactController extends BaseController {
 
 	function showContact(){
 		parent::setActive('Contact');
