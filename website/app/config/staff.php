@@ -9,12 +9,6 @@ return array(
 				'role' => "President",
 				'twitter' => 'drtshock',
 				'avatar' => '/assets/img/staff/1.png'
-			),
-			array(
-				'name' => 'Brandon Hensler',
-				'role' => 'Vice President',
-				'twitter' => 'brandonhensler',
-				'avatar' => '/assets/img/staff/2.png'
 			)
 		)
 	),

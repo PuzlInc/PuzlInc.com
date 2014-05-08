@@ -9,12 +9,6 @@
 			</ul>
 		</div>
 		<div class="grid-25">
-			<h5>Our Sponsors</h5>
-			<p>
-				<a href="http://beastnode.com/"><img src="/assets/img/beastnode.png" width="80%" /></a>
-			</p>
-		</div>
-		<div class="grid-25">
 			<h5>Contact Us</h5>
 			<p>Email: <a href="mailto:contact@puzlinc.com">contact@puzlinc.com</a></p>
 		</div>
@@ -23,6 +17,12 @@
 			<p><a href="#">@puzlinc</a> - April 27, 2014</p>
 			<p>Our new website design is amazing! Thanks, <a href="http://twitter.com/lDucks">@lDucks</a></p>
 			<small class="pull-right"><a href="http://twitter.com">view on twitter</a></small>
+		</div>
+		<div class="grid-25">
+			<h5>Our Sponsors</h5>
+			<p>
+				<a href="http://beastnode.com/"><img src="/assets/img/beastnode.png" width="200px" /></a>
+			</p>
 		</div>
 	</div>
 	<div class="grid-100 grid-parent">
