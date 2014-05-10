@@ -15,7 +15,7 @@
 		<div class="grid-25">
 			<h5>Recent Tweets</h5>
 			<p><a href="#">@puzlinc</a> - April 27, 2014</p>
-			<p>Our new website design is amazing! Thanks, <a href="http://twitter.com/lDucks">@lDucks</a></p>
+			<p>{{ json_encode($tweet) }}</p>
 			<small class="pull-right"><a href="http://twitter.com">view on twitter</a></small>
 		</div>
 		<div class="grid-25">

@@ -1,5 +1,6 @@
 <?php
 
+use Thujohn\Twitter\Twitter;
 use Tools\UI\NavigationItem;
 
 class BaseController extends Controller {
