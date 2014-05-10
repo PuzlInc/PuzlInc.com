@@ -40,7 +40,7 @@
 			<h3>We're Hiring!</h3>
 			<p><i class="fa fa-group fa-4x"></i></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
-			<div class="more"><a href="#">Click here for more..</a></div>
+			<div class="more"><a href="/jobs">Click here for more..</a></div>
 		</div>
 	</div>
 	<div class="grid-25">
@@ -48,7 +48,7 @@
 			<h3>Free Support</h3>
 			<p><i class="fa fa-question fa-4x"></i></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
-			<div class="more"><a href="#">Click here for more..</a></div>
+			<div class="more"><a href="/contact">Click here for more..</a></div>
 		</div>
 	</div>
 	<div class="grid-25">
@@ -56,7 +56,7 @@
 			<h3>We'll Teach You!</h3>
 			<p><i class="fa fa-book fa-4x"></i></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
-			<div class="more"><a href="#">Click here for more..</a></div>
+			<div class="more"><a href="/jobs">Click here for more..</a></div>
 		</div>
 	</div>
 	<div class="grid-25">
@@ -64,7 +64,7 @@
 			<h3>Trusted Developers</h3>
 			<p><i class="fa fa-list fa-4x"></i></p>
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sodales lacus ut tellus volutpat ultricies.</p>
-			<div class="more"><a href="#">Click here for more..</a></div>
+			<div class="more"><a href="/sales">Click here for more..</a></div>
 		</div>
 	</div>
 </div>

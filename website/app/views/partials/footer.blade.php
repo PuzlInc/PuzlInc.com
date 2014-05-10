@@ -14,7 +14,7 @@
 		</div>
 		<div class="grid-25">
 			<h5>Recent Tweets</h5>
-			<p><a href="#">@puzlinc</a> - April 27, 2014</p>
+			<p>{{ Twitter::linkify('@puzl_inc') }} - {datetime}:</p>
 			<p>{{ json_encode($tweet) }}</p>
 			<small class="pull-right"><a href="http://twitter.com">view on twitter</a></small>
 		</div>
@@ -29,14 +29,12 @@
 		<div class="grid-50">
 			<p><small>&copy; 2014 Puzl Inc - Professionally Awesome. All Rights Reserved.</small></p>
 		</div>
-		<!--
-<div class="grid-50">
-<ul class="social-media pull-right">
-<li><a  title="" target="_blank" href="https://facebook.com/"><i class="fa fa-2x fa-facebook"></i></a></li>
-<li><a  target="_blank" href="https://twitter.com/"><i class="fa fa-2x fa-twitter"></i></a></li>
-<li><a  target="_blank" href="https://google.com"><i class="fa fa-2x fa-google-plus"></i></a></li>
-</ul>
-</div>
--->
+		<div class="grid-50">
+			<ul class="social-media pull-right">
+				<li><a  title="" target="_blank" href="https://facebook.com/"><i class="fa fa-2x fa-facebook-square"></i></a></li>
+				<li><a  target="_blank" href="https://twitter.com/puzl_inc"><i class="fa fa-2x fa-twitter-square"></i></a></li>
+				<li><a  target="_blank" href="https://google.com"><i class="fa fa-2x fa-google-plus-square"></i></a></li>
+			</ul>
+		</div>
 	</div>
 </div>
