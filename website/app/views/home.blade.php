@@ -16,10 +16,13 @@
 				<div class="slider-image">
 					<img src="/assets/img/slides/s2.png" width="100%" />
 				</div>
+				<div class="photo-by">
+					Photo By Lorem Ipsum
+				</div>
 			</div>
 			<div class="slider-item" data-id="3">
 				<div class="slider-image">
-					<img src="/assets/img/slides/s3.png" width="100%" />
+					<img src="http://p-hold.com/technology/1200/600" width="100%" />
 				</div>
 				<div class="slider-text">
 					<h3>Technology</h3>

@@ -16,7 +16,7 @@
 		@foreach($dept['members'] as $member)
 		<div class="grid-20">
 			<div class="info-box about-object text-center">
-				<img src="{{ $member['avatar'] }}" width="100%" />
+				<img src="{{ $member['avatar'] }}" width="200px" />
 				<h4>{{ $member['name'] }}</h4>
 				<p>{{ $member['role'] }}</p>
 				<p class="social-media">
