@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,700,800,300,600);
+
 body, html {
     padding: 0;
     margin: 0;
@@ -7,29 +9,34 @@ body, html {
 
 body {
     background: #FAFAFA;
-    background: url(../img/bg.png);
-    font-family: "Arial";
-    color: #383838;
+    background: url(../img/bg.png) #F8F8F8;
+    color: #3A3A3A;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+p {
+    line-height: 1.6em;
 }
 
 #wrap {
     min-height: 100%;
     height: auto !important;
-    margin: 0 auto -200px;
+    margin: 0 auto -234px;
 }
 
 footer, #push {
-    height: 200px;
+    height: 234px;
     overflow: hidden;
 }
 
 @media screen and (max-width: 1024px) {
     #wrap {
-        margin: 0 auto -348px;
+        margin: 0 auto -381px;
     }
 
     footer, #push {
-        height: 348px;
+        height: 381px;
     }
 }
 
@@ -38,6 +45,7 @@ nav {
     padding: 30px 0;
     background: white;
     margin-bottom: 50px;
+    border-bottom: 1px rgb(247, 247, 247) solid;
 }
 
 .brand img {
@@ -49,8 +57,8 @@ nav {
 
 .nav-links {
     text-transform: uppercase;
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 13px;
+    font-weight: 700;
     list-style: none;
 }
 
@@ -64,7 +72,7 @@ nav {
 }
 
 .nav-links li a {
-    color: black;
+    color: #555555;
 }
 
 .nav-links li a:hover {
@@ -127,9 +135,8 @@ nav {
 .info-box {
     text-align: center;
     margin-top: 20px;
-    background: #e2e2e2;
+    background: #EEEEEE;
     padding: 1px 15px;
-    font-size: 14px;
     border-bottom: 2px solid #c90000;
 }
 
@@ -151,18 +158,16 @@ a:hover {
     -webkit-transition: color .15s ease-in-out;
 }
 
+#push {
+    margin-top: 50px;
+}
+
 footer {
     height: auto;
     width: 100%;
-    background: #383838;
-    margin-top: 50px;
-    font-family: "Verdana";
+    background: #2B2B2B;
     color: white;
     border-top: 3px solid #c90000;
-}
-
-footer p, footer ul {
-    font-size: 12px;
 }
 
 footer ul {
@@ -172,7 +177,7 @@ footer ul {
 }
 
 footer li+li {
-    margin-top: 3px;
+    margin-top: 2px;
 }
 
 .social-media {
@@ -188,7 +193,7 @@ footer ul.social-media li+li {
 }
 
 footer small {
-    font-size: 9px;
+    font-size: 10px;
 }
 
 .go-top {
@@ -243,7 +248,7 @@ footer small {
     background: #252525;
     padding: 10px 25px;;
     width: 100%;
-    color: #CCC;
+    color: #F0F0F0;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -278,4 +283,8 @@ label+input, label+textarea {
 
 .slider {
     border-bottom: 2px solid #c90000;
+}
+
+.slider-image img {
+    max-height: 590px;
 }

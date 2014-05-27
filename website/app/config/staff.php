@@ -2,7 +2,7 @@
 
 return array(
 	array(
-		'name' => 'Front Desk',
+		'name' => 'Front Office',
 		'members' => array(
 			array(
 				'name' => 'Trent Hensler',
@@ -20,12 +20,6 @@ return array(
 				'role' => 'Systems Administrator',
 				'twitter' => 'blha303',
 				'avatar' => '/assets/img/staff/3.png'
-			),
-			array(
-				'name' => 'Rhys Williams',
-				'role' => 'Systems Administrator',
-				'twitter' => 'krypticdot',
-				'avatar' => '/assets/img/staff/4.png'
 			),
 			array(
 				'name' => 'Travis Ralston',

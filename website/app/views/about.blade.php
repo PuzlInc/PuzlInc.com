@@ -3,7 +3,7 @@
 <div class="header-text">
 	<div class="grid-container">
 		<div class="grid-100">
-			<p>Puzl Inc. only hires top of the line developers and designers for our clients. Our employees are hand picked by our board of administrators to ensure that we're hiring the best of the best.</p>
+			<p>Puzl Inc. only hires top of the line developers and designers for our clients. Our employees are hand picked by our front office to ensure that we're hiring the best of the best.</p>
 		</div>
 	</div>
 </div>
