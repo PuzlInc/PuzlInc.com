@@ -35,7 +35,7 @@ $content = <<<EOF
                 <li>Don't worry about finding clients or their legitimacy.</li>
                 <li>If a client charges back, you still get paid.</li>
                 <li>If a client does not pay for their product, you will still be compensated.</li>
-                <li>Established procuderes. We take care of all non-development work for you.</li>
+                <li>Established procedures. We take care of all non-development work for you.</li>
                 <li>Focus solely on developing top-of-the-line products while we worry about everything else.</li>
                 <li>A professional team of developers to help.</li>
                 </ul>
