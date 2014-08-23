@@ -52,6 +52,11 @@ $content = <<<EOF
           <br />Travis writes Bukkit Plugins.</p>
           <br />
 
+          <p><b>Sybren Gjaltema</b> <a href="https://twitter.com/lolmewn"><i class="fa fa-twitter"></i>lolmewn</a>
+          <br /><i>Java Developer</i>
+          <br />Sybren writes Bukkit Plugins.</p>
+          <br />
+
           <p><b>Nate Mortenson</b>
           <br /><i>Java Developer</i>
           <br />Nate writes Bukkit Plugins.</p>
