@@ -56,11 +56,6 @@ $content = <<<EOF
           <br /><i>Java Developer</i>
           <br />Nate writes Bukkit Plugins.</p>
           <br />
-          
-          <p><b>Rhys Williams</b> <a href="https://twitter.com/krypticdot"><i class="fa fa-twitter"></i>KrypticDot</a>
-          <br /><i>Systems Administrator & Java Developer</i>
-          <br />Rhys writes Bukkit Plugins and administers linux servers.</p>
-          <br />
 
         </div>
         <div class="tab-pane fade" id="Designers">
