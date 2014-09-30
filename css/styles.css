@@ -188,6 +188,40 @@ img.grayscale {
   font-size: 68px;
 }
 
+.contact {
+  background: #480D0D;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.contact-item {
+  margin-bottom: 15px;
+}
+
+.contact-item > a {
+  text-decoration: none;
+}
+
+.contact-item > a:hover {
+  text-decoration: none;
+}
+
+.contact-item > a > i {
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.contact-item > a > i:hover {
+  font-size: 68px;
+}
+
 .callout {
   color: #ffffff;
   padding-top:2%;

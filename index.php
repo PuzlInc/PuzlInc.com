@@ -1,13 +1,21 @@
 <?php
-function profile($email, $twitter) {
-  $hash = md5( strtolower( trim( $email ) ) );
-  return "<a href=\"https://twitter.com/$twitter\"><img class=\"img-circle grayscale\" src=\"https://secure.gravatar.com/avatar/$hash\"></a>";
+function gravatar($email) {
+  return md5( strtolower( trim( $email ) ) );
 }
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+          
+          ga('create', 'UA-41884884-7', 'puzl.io');
+          ga('send', 'pageview');
+        </script>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 		<meta charset="utf-8">
 		<title>Puzl</title>
@@ -86,13 +94,6 @@ function profile($email, $twitter) {
           <p></p>
         </div>
       </div>
-      <!-- <div class="col-md-2 text-center">
-        <div class="featurette-item">
-          <i class="icon-pencil"></i>
-          <h4>Scholar</h4>
-          <p>Because lead pencils are pretty smart looking.</p>
-        </div>
-      </div> -->
     </div>
   </div>
 </div>
@@ -101,16 +102,41 @@ function profile($email, $twitter) {
   <div class="container">
     <div class="col-md-12 text-center"><h2>Staff</h2></div>
     <div>&nbsp;</div>
-    <div class="col-md-9 col-md-offset-4 text-center">
+    <div class="col-md-10 col-md-offset-3 text-center">
       <div class="row">
-       <div class="col-sm-2"><?php echo profile("trent@puzlinc.com", "drtshock"); ?><p>Trent Hensler</p></div>
-       <div class="col-sm-2"><?php echo profile("cionescu@gmail.com", "puzl_inc"); ?><p>Catalin Ionescu</p></div>
+       <div class="col-sm-2"><a href="https://twitter.com/drtshock"><img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("trent@puzlinc.com"); ?>"></a><p>Trent Hensler</p></div>
+       <div class="col-sm-2"><img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("cionescu@gmail.com"); ?>"><p>Catalin Ionescu</p></div>
+       <div class="col-sm-2"><a href="https://twitter.com/turt2live"><img class="img-circle grayscale" src="img/staff/turt2live.jpg"></a><p>Travis Ralston</p></div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="blurb" id="contact">
+<div class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Contact</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 col-md-offset-4 text-center">
+        <div class="contact-item">
+          <a href="mailto:sales@puzlinc.com"><i class="icon-envelope"></i>
+          <h4>Sales</h4>
+          <p>sales@puzlinc.com</p></a>
+        </div>
+      </div>
+      <div class="col-md-2 text-center">
+        <div class="contact-item">
+          <a href="mailto:jobs@puzlinc.com"><i class="icon-envelope"></i>
+          <h4>Jobs</h4>
+          <p>jobs@puzlinc.com</p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <footer>
   <div class="container">
