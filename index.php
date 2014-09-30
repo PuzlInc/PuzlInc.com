@@ -102,7 +102,7 @@ function gravatar($email) {
   <div class="container">
     <div class="col-md-12 text-center"><h2>Staff</h2></div>
     <div>&nbsp;</div>
-    <div class="col-md-10 col-md-offset-3 text-center">
+    <div class="col-md-10 col-md-offset-2 text-center">
       <div class="row">
        <div class="col-sm-2"><a href="https://twitter.com/drtshock"><img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("trent@puzlinc.com"); ?>"></a><p>Trent Hensler</p></div>
        <div class="col-sm-2"><img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("cionescu@gmail.com"); ?>"><p>Catalin Ionescu</p></div>
