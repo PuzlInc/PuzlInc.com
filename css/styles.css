@@ -107,7 +107,6 @@ img.grayscale {
   background-color:#e50d27;
 }
 
-    
 .header h1 {
   font-size:80px;
   -webkit-text-stroke: 1px rgba(f,f,f,0.1);
@@ -122,13 +121,6 @@ img.grayscale {
   color:#d46054;
   font-size:25px;
 }
-
-.header {
-  height: 80%;
-  background: #f68076 url('http://www.bootply.com/assets/example/pt_topo_l.png') repeat center center fixed;
-}
-
-/* use alt in navbar and header for different color */
 
 .alt {
   background-color: #8B1B1E;
@@ -162,6 +154,7 @@ img.grayscale {
   color:#333;
 }
 
+/* featurette */
 .featurette {
   background: #342121;
   padding: 50px 0;
@@ -178,7 +171,7 @@ img.grayscale {
   display: inline-block;
   font-size: 56px;
   width: 140px;
-  height: 140px;
+  min-height: 140px;
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
@@ -188,6 +181,7 @@ img.grayscale {
   font-size: 68px;
 }
 
+/* contact */
 .contact {
   background: #480D0D;
   padding: 50px 0;
@@ -212,7 +206,7 @@ img.grayscale {
   display: inline-block;
   font-size: 56px;
   width: 140px;
-  height: 140px;
+  min-height: 140px;
   line-height: 136px;
   vertical-align: middle; 
   text-align: center;
@@ -222,16 +216,31 @@ img.grayscale {
   font-size: 68px;
 }
 
-.callout {
-  color: #ffffff;
+/* staff */
+.staff {
+  color: #222222;
   padding-top:2%;
-  height: 50%;
+  min-height: 50%;
   width: 100%;
-  background: url('/img/Jigsaw.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.staff-item {
+  margin-bottom: 15px;
+}
+
+.staff-item img {
+  border: 3px solid #FFFFFF;
+  border-radius: 50%;
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  line-height: 136px;
 }
 
 .gallery {
