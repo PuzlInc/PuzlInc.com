@@ -107,19 +107,19 @@ function gravatar($email) {
     </div>
     <div class="row">
      <div class="col-md-2 col-md-offset-1 staff-item">
-       <a href="https://twitter.com/drtshock"><img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("trent@puzlinc.com"); ?>"></a><p>Trent Hensler</p>
+       <a href="https://twitter.com/drtshock"><img class="img-circle" src="https://secure.gravatar.com/avatar/<?php echo gravatar("trent@puzlinc.com"); ?>"></a><p>Trent Hensler</p>
      </div>
      <div class="col-md-2 staff-item">
-       <img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("cionescu@gmail.com"); ?>"><p>Catalin Ionescu</p>
+       <img class="img-circle" src="https://secure.gravatar.com/avatar/<?php echo gravatar("cionescu@gmail.com"); ?>"><p>Catalin Ionescu</p>
      </div>
      <div class="col-md-2 staff-item">
-       <a href="https://twitter.com/turt2live"><img class="img-circle grayscale" src="img/staff/turt2live.jpg"></a><p>Travis Ralston</p>
+       <a href="https://twitter.com/turt2live"><img class="img-circle" src="img/staff/turt2live.jpg"></a><p>Travis Ralston</p>
      </div>
      <div class="col-md-2 staff-item">
-       <a href="https://twitter.com/blha303"><img class="img-circle grayscale" src="img/staff/blha303.jpg"></a><p>Steven Smith</p>
+       <a href="https://twitter.com/blha303"><img class="img-circle" src="img/staff/blha303.jpg"></a><p>Steven Smith</p>
      </div>
      <div class="col-md-2 staff-item">
-       <a href="http://mfendley.com/"><img class="img-circle grayscale" src="https://secure.gravatar.com/avatar/<?php echo gravatar("ad@mfendley.com"); ?>"></a><p>Adam Fendley</p>
+       <a href="http://mfendley.com/"><img class="img-circle" src="https://secure.gravatar.com/avatar/<?php echo gravatar("ad@mfendley.com"); ?>"></a><p>Adam Fendley</p>
      </div>
     </div>
     </div>
