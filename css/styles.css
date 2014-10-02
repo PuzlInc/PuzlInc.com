@@ -55,6 +55,10 @@ h1 {
     -webkit-filter:grayscale(0);
 }
 
+.staff p {
+    font-weight: bold;
+}
+
 .icon-bar {
    background-color:#fff;
 }
