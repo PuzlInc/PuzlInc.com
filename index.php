@@ -26,6 +26,7 @@ function gravatar($email) {
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="css/styles.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
 
@@ -188,6 +189,5 @@ function gravatar($email) {
 
 		});
 		</script>
-		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
 	</body>
 </html>
