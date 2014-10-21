@@ -203,6 +203,7 @@ h1 {
 
 .contact-item > a {
   text-decoration: none;
+  color: #FFF;
 }
 
 .contact-item > a:hover {
