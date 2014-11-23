@@ -253,6 +253,22 @@ h1 {
   line-height: 136px;
 }
 
+/* clients */
+.clients {
+  margin-bottom: 10px;
+}
+
+.client-item {
+  margin: 5px;
+}
+
+.client-item.col-md-1 {
+  float:none;
+  display:inline-block;
+  vertical-align:middle;
+}
+
+/* misc */
 .gallery {
   padding: 50px 0;
 }
@@ -264,6 +280,10 @@ h1 {
 
 .call-to-action .btn {
   margin: 10px;
+}
+
+.centered {
+  margin: 0 auto;
 }
 
 footer {

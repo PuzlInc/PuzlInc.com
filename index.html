@@ -1,9 +1,3 @@
-<?php
-function gravatar($email) {
-  return md5( strtolower( trim( $email ) ) );
-}
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -46,6 +40,7 @@ function gravatar($email) {
         <li><a href="#services">Services</a></li>
         <li><a href="#staff">Staff</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a href="#clients">Clients</a></li>
       </ul>
     </div>
    </div>
@@ -98,7 +93,7 @@ function gravatar($email) {
   </div>
 </div>
 
-<div class="staff" id="staff" style="background: url('/img/Jigsaw.png') no-repeat center center fixed;">
+<div class="staff" id="staff" style="background: url('img/Jigsaw.png') no-repeat center center fixed;">
   <div class="container">
     <div class="row">
       <div class="col-md-12 text-center">
@@ -121,7 +116,6 @@ function gravatar($email) {
      <div class="col-md-2 staff-item">
        <a href="http://mfendley.com/"><img class="img-circle" src="data:image/jpeg;base64,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"></a><p>Adam Fendley</p>
      </div>
-    </div>
     </div>
   </div>
 </div>
@@ -147,6 +141,66 @@ function gravatar($email) {
           <h4>Jobs</h4>
           <p>jobs@puzlinc.com</p></a>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="clients" id="clients">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Clients</h1>
+      </div>
+    </div>
+    <div class="row centered">
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/basicpvp.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/clubobsidian.jpg" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/craftgasm.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/desteria.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/emenbee.jpg" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/extronus.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/littlelizard.jpg" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/meepcraft.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/minesmite.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/minetime.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/nebulas.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/reactivemc.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/retromc.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/securedmc.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/skyhype.png" />
+      </div>
+      <div class="col-md-1 client-item">
+        <img src="img/server_logos/solomid.jpg" />
       </div>
     </div>
   </div>
